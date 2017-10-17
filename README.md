@@ -16,4 +16,3 @@ Assignment
  -  To start the live reload server, simply run `npm start`
  -  HTML files are contained under `web/` -> `web/index.html` is the default homepage.
  -  Images are stored under `web/images/`
-

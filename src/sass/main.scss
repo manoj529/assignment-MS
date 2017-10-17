@@ -1,7 +1,9 @@
 /**
  * Some placeholder SASS
  */
-
+body{
+    background-color: #F4F4F4;
+}
 .my-container {
     max-width: 800px;
 }
@@ -14,6 +16,17 @@
 }
 .header-bg{
     background-color:#C10930;
+}
+
+.test-banner{
+    background-image:url("images/banner-bg.png");
+    background-repeat: no-repeat fixed center center;
+    background-size: cover cover;
+    height: 300px;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 /* Red */
