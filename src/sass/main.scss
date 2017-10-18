@@ -18,19 +18,37 @@ body{
     background-color:#C10930;
 }
 
-.test-banner{
-    background-image:url("images/banner-bg.png");
-    background-repeat: no-repeat fixed center center;
-    background-size: cover cover;
-    height: 300px;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+.banner{
+    background-image: url('../../images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    min-height:500px;
+    /*   position: relative;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    .media-body,.title{
+        color:#fff;
+    }
+    .banner-content{
+        background-color: #60625f;
+        padding: 25px;
+        opacity: 0.95;
+    }
+    .banner-content>div:nth-child(2n+1) {
+        border-left: #B4C556 1px solid;
+    }
+    .title{
+        font-size: 26px;
+        color: white;
+        margin-top:0;
+    }
 }
 
 /* Red */
-$bgDefault      : #e74c3c;
+$bgDefault      : #C10930;
 $bgHighlight    : #c0392b;
 $colDefault     : #ecf0f1;
 $colHover       : #ffbbbc; 
